@@ -1,0 +1,5 @@
+{
+  "name": "Enterprise Low-Code Platform",
+  "description": "Enterprise-grade Backend-Driven UI system with dynamic layouts, RBAC, and multi-tenant support.",
+  "requestFramePermissions": []
+}
