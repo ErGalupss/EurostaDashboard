@@ -44,9 +44,10 @@ async function bootstrap() {
   }
 
   // Port 3000 is required by the platform
-    const PORT = process.env.PORT || 3000;
-    app.listen(PORT);
-}
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
 
 bootstrap().catch(err => {
   console.error('Failed to start application:', err);
