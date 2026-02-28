@@ -44,8 +44,8 @@ async function bootstrap() {
   }
 
   // Port 3000 is required by the platform
-  await app.listen(3000, '0.0.0.0');
-  console.log(`Application is running on: http://localhost:3000`);
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT);
 }
 
 bootstrap().catch(err => {
