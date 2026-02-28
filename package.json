@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
+    "start": "vite preview"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
